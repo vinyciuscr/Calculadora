@@ -1,0 +1,49 @@
+*{
+    background: #755d83;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background: #755d83;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 60px;
+    font-family: 'Roboto Slab', serif;
+    margin: 5px;
+    text-align: center;
+}
+.box{
+    background-color: #8657a1;
+    border: 10px solid rgb(141, 65, 211);
+}
+#sete, #um, #dois, #tres, #quatro, #cinco, #seis, #oito, #nove, #mais, #menos, #multiplicar, #apagar, #zero, #igual, #divisao{
+    background-color: rgb(127, 173, 204);
+    width: 80px;
+    height: 60px;
+    margin: 10px;
+    font-size: 40px;
+    border-radius: 12px;
+}
+#mais, #menos, #multiplicar, #divisao{
+    background-color: rgb(109, 109, 189);
+}
+#apagar{
+    background-color: rgb(255, 0, 0);
+}
+#igual{
+    background-color:  rgb(55, 78, 94);
+}
+#visor{
+    width: 388px;
+    height: 50px;
+    margin-left: 8px;
+    border-radius: 15px;
+    font-size: 30px;
+    border: 2px solid black;
+    opacity: calc(0.70);
+    color: black;
+}
